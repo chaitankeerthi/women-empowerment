@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- <video autoplay loop muted plays-inline src="video.mp4" type="video/mp4"></video> -->
+
+
+    <!-- <div class="container">
+        <div class="row"> -->
+<div>
+<video autoplay loop muted src="video.mp4" class="video"></video>
+            <nav class="navbar">
+                <div class="user">
+                    <h3 class="name">SheCan</h3>
+                    <img src="data:image/jpeg;base64,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"
+                        alt="" >
+
+                    <p class="post"></p>
+                </div>
+
+                <ul>
+                    <li class="home"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+                            </svg> Home</a></li>
+                    <li class="home"><a href="principle.html"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                            </svg> Principles</a> </li>
+                    <li class="home"><a href="problems.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z" />
+                            </svg> Problems Faced</a></li>
+                    <li class="home"><a href="solutions.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+                            </svg> Silver Bullets</a></li>
+                    <li class="home"><a href="service.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg> Services</a></li>
+                    <li class="home"><a href="addinfo.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-file-earmark-plus" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 6.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 .5-.5z" />
+                                <path
+                                    d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z" />
+                            </svg> Add Your Info</a></li>
+
+                </ul>
+
+            </nav>
+        </div>
+        <!-- </div>
+    </div> -->
+    <section id="home">
+        
+        <div class="home1">
+            
+                <h1 class="create1">
+                    Women Create Life... But Still Without RIGHTS!
+                </h1>
+                <p class="create2">Today we smash the Patriarchy</p>
+            
+        </div>
+
+
+    </section>
+    <!-- ---------------------------------------navbar ends------------------------------------------------ -->
+   
+
+
+
+    <!--  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+
+    <script>
+        var x = document.getElementById('login');
+        var y = document.getElementById('register');
+        var z = document.getElementById('btn');
+        function register() {
+            x.style.left = '-400px';
+            y.style.left = '50px';
+            z.style.left = '110px';
+        }
+        function login() {
+            x.style.left = '50px';
+            y.style.left = '450px';
+            z.style.left = '0px';
+        }
+    </script>
+    <script>
+        var modal = document.getElementById('login-form');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
